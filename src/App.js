@@ -8,14 +8,13 @@ import Navbar from './components/Navbar/Navbar';
 
 const App = () => {
     return (
-        <div className ='app-wrapper'>
-            <Header />
-            <Navbar />
-            <Profile />
-    </div>
+        <div className='app-wrapper'>
+            <Header/>
+            <Navbar/>
+            <Profile/>
+        </div>
     );
 }
-
 
 
 export default App;
